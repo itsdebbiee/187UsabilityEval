@@ -8,9 +8,9 @@ $(document).ready(function() {
 });
 
 /* Sticky SideBar */
-$(document).ready(function() {
+	$(document).ready(function() {
     $('#sidebar').stickySidebar({
-		sidebarTopMargin: 20,
-		footerThreshold: 100
+			sidebarTopMargin: 20,
+			footerThreshold: 100
 	});
 });
