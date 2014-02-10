@@ -9,8 +9,7 @@ $(document).ready(function() {
 
 /* Sticky SideBar */
 $(document).ready(function() {
-
-    $('#sidebar').stickySidebar();
+	$('#sidebar').stickySidebar();
 		sidebarTopMargin: 20,
-		footerThreshold: 100
+		footerThreshold: 100,
 });
