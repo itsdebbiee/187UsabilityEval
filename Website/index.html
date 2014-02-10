@@ -18,6 +18,7 @@
 	<!--Link to CSS Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/dashboard.css"/>
 	<link rel="stylesheet" type="text/css" href="css/mystyles.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'/>
 
@@ -49,21 +50,26 @@
 	    <main class="clearfix">
 	    	
 	    	<!--sidebar-->
-	    	<aside id="sidebar">
-	    	
-	    		<div class="inside">
-	    	
-		    		<h2>Title 1</h2>
-		    		
-		    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis mattis tortor sit amet gravida. Curabitur tincidunt tellus bibendum tellus eleifend porttitor. Etiam hendrerit purus a sollicitudin tempor. Curabitur sed ipsum eget erat mollis luctus. Donec consectetur dui ac diam blandit, sit amet luctus justo fringilla. Pellentesque feugiat enim a mi pulvinar aliquet.</p>
-		    		
-		    		<h2>Title 2</h2>
-		    		
-		    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis mattis tortor sit amet gravida. Curabitur tincidunt tellus bibendum tellus eleifend porttitor. Etiam hendrerit purus a sollicitudin tempor.  </p>
-	    		
-	    		</div>
-	    	
-	    	</aside>
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="http://getbootstrap.com/examples/dashboard/#">Overview</a></li>
+            <li><a href="http://getbootstrap.com/examples/dashboard/#">Reports</a></li>
+            <li><a href="http://getbootstrap.com/examples/dashboard/#">Analytics</a></li>
+            <li><a href="http://getbootstrap.com/examples/dashboard/#">Export</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item</a></li>
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+            <li><a href="">More navigation</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+          </ul>
+        </div>
 	    	<!--end sidebar-->
 	    	
 	    	<!--main content-->
@@ -134,14 +140,5 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="js/stickySidebar.js"></script>
 
-	<script>
-	$(document).ready(function() {
-
-		$('#sidebar').stickySidebar({
-			sidebarTopMargin: 20,
-			footerThreshold: 100
-		});
-	});
-	</script>
 </body>
 </html>
