@@ -46,10 +46,14 @@ body { background: #fff; color: #666; font: 13px/1.4em 'Open Sans', sans-serif; 
 
 /* heading */
 h1, h2, h3, h4, h5, h6 { line-height: 1em; margin: 1em 0; }
-h1 { font-size: 2.2em; }
+h1 { font-size: 2.2em; color:#F5F5F5;}
 h2 { font-size: 2em; }
 h3 { font-size: 1.8em; }
 
+/* paragraph */
+p#offwhite {
+color:#F5F5F5;
+}
 
 /* LAYOUT ............................................. */
 
