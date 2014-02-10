@@ -8,8 +8,10 @@ $(document).ready(function() {
 });
 
 /* Sticky SideBar */
-$(document).ready(function() {
-	$('#sidebar').stickySidebar();
-		sidebarTopMargin: 20,
-		footerThreshold: 100,
-});
+	$(document).ready(function() {
+
+		$('#sidebar').stickySidebar({
+			sidebarTopMargin: 20,
+			footerThreshold: 100
+		});
+	});
