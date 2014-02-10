@@ -6,3 +6,10 @@ $(document).ready(function() {
 		closeEffect	: 'none'
 	});
 });
+
+/* Sticky SideBar */
+$(document).ready(function() {
+
+    $('#sidebar').stickySidebar();
+
+});
