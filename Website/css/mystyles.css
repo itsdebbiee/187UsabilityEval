@@ -45,11 +45,13 @@ html, body {
 }
 
 
+
 /* HTML ELEMENTS....................................... */
 html{
 }
 body { 
      background: url("../img/background.png") no-repeat center center fixed;
+
 	color: #666; 
 	font: 13px/1.4em 'Open Sans', sans-serif; 
 	text-align: left; 
