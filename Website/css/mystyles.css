@@ -59,6 +59,20 @@ color:#F5F5F5;
 
 /* Header .............. */
 header { background-color: #ccc; height: 100px; width: 100%; }
+.jumbotron1 {
+margin-bottom:30px;
+color:inherit;
+background-color:#03038f;
+padding:20px;
+}
+.jumbotron1 p {
+margin-bottom:15px;
+font-size:21px;
+font-weight:200;
+}
+.jumbotron1 .container {
+max-width:100%;
+}
 
 /* Navigation .......... */
 nav { background-color: #999; width: 100%; }
@@ -68,6 +82,8 @@ nav ul li a:link, nav ul li a:visited { color: #fff; transition: color 0.15s lin
 nav ul li a:hover, nav ul li a:active { color: #000; }
 nav ul li.active a:link, nav ul li.active a:visited, nav ul li.active a:hover, nav ul li.active a:active { color: #000 !important; }
 nav ul li.right { float: right; }
+
+/* Sidebar */
 
 /* Main ................ */
 main { margin: 20px auto; max-width: 940px; }
