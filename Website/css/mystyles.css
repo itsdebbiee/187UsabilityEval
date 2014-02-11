@@ -31,8 +31,17 @@ html, body {
 	padding: 5px;
 }
 
+#eval {
+	font-size: 15px;
+	margin: auto;
+}
+
 .center {
 	text-align: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
 }
 
 
