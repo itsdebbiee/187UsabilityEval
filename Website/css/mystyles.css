@@ -58,13 +58,16 @@ body {
 
 /* heading */
 h1, h2, h3, h4, h5, h6 { line-height: 1em; margin: 1em 0; }
-h1 { font-size: 2.2em; color:#F5F5F5;}
-h2 { font-size: 2em; }
-h3 { font-size: 1.8em; }
+h1 { font-size: 2.2em; color:#225681;}
+h2 { font-size: 2em; color:#225681;}
+h3 { font-size: 1.8em; color:#225681;}
 
 /* paragraph */
 p#offwhite {
 color:#F5F5F5;
+}
+p#blue {
+color:#225681;
 }
 
 /* LAYOUT ............................................. */

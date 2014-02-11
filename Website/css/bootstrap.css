@@ -3112,6 +3112,7 @@ table th[class*="span"],
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
+  margin-left:100px;
   background-color: #212021;
   color:#F5F5F5;
   border: 1px solid #e3e3e3;
