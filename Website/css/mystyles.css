@@ -8,7 +8,7 @@ TABLE OF CONTENTS
 */
 
 /*
-1. General
+1. GENERAL
 ============================================ */
 
 html, body {
@@ -16,6 +16,10 @@ html, body {
   padding:0;
   height: 100%;
   cursor:crosshair;
+}
+* {
+	font-family: Lato, sans-serif;
+	font-weight:300;
 }
 
 /*
