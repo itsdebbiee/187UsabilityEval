@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Georgia State University Usability Evaluation</title>
+	<meta name="description" content="With Nelson's 10 Heuristics in mind, we evaluated Georgia State University's website in terms of user friendliness and ease of navigation.">
+	<meta name="author" content="Debbie Pan, Michelle Wang, Harry Bui">
+
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+	<!--Link to CSS Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/dashboard.css"/>
+	<link rel="stylesheet" type="text/css" href="css/mystyles.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'/>
+	
+	<!--Link to Javascript/ JQuery-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<!-- End Fancy Box -->
+
+	<!-- Browser Icon -->
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+
+
+<body>
+
+<!--main-->
+    <main class="clearfix">
+    	<!--Heading-->
+    <div class="jumbotron">
+      <div class="container">
+        <h1><strong>Usability Evaluation</strong></h1>
+        <p id="offwhite">Using Neilson's 10 Heuristics to critique and analyze Georgia State University's website</p>
+
+         <p id="offwhite">Analyzed site:
+                <a href="http://www.gsu.edu/" target="_blank"> http://www.gsu.edu/</a></p>
+        <p><a class="btn btn-primary btn-lg" role="button">THIS DOES NOTHING</a></p>
+      </div>
+    </div>
+
+    	<!--sidebar-->
+    <div class="col-sm-3 col-md-2 sidebar">
+      <ul class="nav nav-sidebar">
+      	<img id="logo" alt="Georgia State University Logo" src="img/gsu logo.png">
+<<<<<<< HEAD
+      	<div class="center">Usability Evaluation</div>
+=======
+      	<span id="eval" class="center uppercase">Usability Evaluation</span>
+>>>>>>> e911fd438d0e3c1678c0919b87ab316bde1f9780
+        <li class="active"><a href="index.html">Home</a></li>
+
+      </ul>
+      <ul class="nav nav-sidebar">
+        <li><a href="heuristic1.html">Visibility of system status</a></li>
+        <li><a href="#">Match between system & the real world</a></li>
+        <li><a href="#">User Control & Freedom</a></li>          	
+        <li><a href="">Consistency & Standards</a></li>
+        <li><a href="">Error Prevention</a></li>
+        <li><a href="">Recognition rather than recall</a></li>
+        <li><a href="">Flexibility & efficiency of use</a></li>
+        <li><a href="">Aesthetic & Minimalist Design</a></li>
+        <li><a href="">Help users recognize, diagnose, & recover from errors</a></li>
+        <li><a href="">Help & documentation</a></li>
+      </ul>
+      <ul class="nav nav-sidebar">
+        <li><a href="">Ninja Pandas</a></li>
+      </ul>
+    </div>
+    	<!--end sidebar-->
+    	
+    	<!--main content-->
+    	<div class="container" id="content">
+	    	<div class="well">
+	    		<h2>What is the point of this?</h2>
+	    		
+	    		<p>Our objective is to understand what kinds of things websites should do in order to have a good user
+	    			experience. By analyzing and seeing what this website has done, we get a clearer idea on what to do
+	    			and what not to do.</p>
+
+	    		<p>This analysis has been done by Michelle Wang, Debbie Pan and Harry Bui the Beautiful.</p>	    		
+	    	</div>
+
+	    	<div class="well">	
+	    		<h2>In hac habitasse platea dictumst</h2>
+
+	    		<p>In hac habitasse platea dictumst. Phasellus sollicitudin ultricies felis eu porta. Suspendisse quis molestie est, quis fringilla est. Aliquam commodo neque et elit gravida sodales. Donec a metus et ligula suscipit facilisis sit amet in mi. Vestibulum egestas nibh quis pellentesque pellentesque. Proin eget magna nec nisl feugiat feugiat. Donec non elit dictum, hendrerit erat luctus, aliquet ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu semper velit, sit amet molestie orci. Maecenas vestibulum, ligula a congue pellentesque, ante dolor porta nunc, non egestas enim dui sit amet urna. Proin convallis ultricies cursus. In orci nulla, pulvinar id lacinia et, fringilla facilisis metus.</p>
+
+	    		<p>In pretium magna nec purus elementum malesuada. Mauris pulvinar mauris tempor tellus laoreet, non sollicitudin dolor porttitor. Duis rutrum pretium dignissim. Integer non leo id orci placerat sollicitudin vel quis velit. Praesent sit amet mi eget ante pellentesque tincidunt ac quis turpis. Sed vitae fringilla nisi, sit amet tincidunt sem. Praesent luctus odio ac laoreet commodo. Vivamus a consequat magna. Suspendisse potenti. Nam cursus molestie lobortis.</p>
+	    	</div>
+	    	
+	    	<div class="well">	
+	    		<h3>Curabitur quis velit tempor</h3>
+
+	    		<p>Curabitur quis velit tempor, lobortis risus at, pretium sapien. Sed et tristique quam. Praesent blandit, purus eget venenatis volutpat, magna risus luctus dolor, non commodo diam nisl nec libero. Morbi luctus sed turpis pulvinar dapibus. Etiam dapibus leo sed purus imperdiet consectetur. Curabitur eu faucibus ante, in tincidunt odio. Vivamus at lobortis neque. Nam lacinia ligula risus, quis malesuada magna bibendum eget. Duis ut placerat arcu.</p>
+	    	</div>
+	    	
+	    	<div class="well">	
+	    		<h3>Aliquam viverra</h3>
+	    		
+				<p>Aliquam viverra, massa vitae posuere tristique, nisi erat lobortis urna, at ullamcorper erat arcu ac lectus. Nam dapibus interdum ante, a auctor odio vulputate at. Mauris dapibus turpis id velit lobortis, nec faucibus diam gravida. Ut a rhoncus lacus, in accumsan tellus. Pellentesque at risus non tellus vehicula condimentum. Cras porttitor, tortor et vestibulum volutpat, sapien enim blandit quam, id imperdiet justo augue at sem. Aliquam nisl tortor, elementum quis tempus id, commodo quis nibh. Etiam pharetra nec diam ut scelerisque. Aenean at odio tristique, aliquet turpis et, pharetra neque. Integer tellus tortor, vehicula ut libero in, imperdiet fermentum sapien. Ut sit amet ligula in felis tempor gravida. Ut massa purus, imperdiet scelerisque lectus porttitor, lobortis dictum arcu. Donec sit amet est a ante rutrum feugiat sit amet nec leo. Fusce purus dolor, vulputate auctor felis a, ornare venenatis arcu. Cras dapibus metus consequat posuere dapibus.</p>
+			</div>
+
+    	</div>
+    	<!--end main content-->
+    	
+    </main>
+    <!--end main-->
+    
+    <!--footer-->
+    <footer>
+    </footer>
+    <!--end footer-->
+
+
+
+	<!--Link to Sticky Sidebar-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/stickySidebar.js"></script>
+
+</body>
+</html>
