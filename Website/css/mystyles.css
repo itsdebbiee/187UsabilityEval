@@ -54,10 +54,11 @@ a {
 html{
 }
 body { 
-     background: url("../img/background.png") no-repeat center center fixed;
-
+    background: url("../img/agsquare.png") repeat;
+    position: relative;
+    height: auto;
+    width: 100%;
 	color: #666; 
-	font: 13px/1.4em 'Open Sans', sans-serif; 
 	text-align: left; 
 }
 
