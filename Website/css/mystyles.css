@@ -75,3 +75,7 @@ color:#F5F5F5;
 p#blue {
 color:#225681;
 }
+
+p.italic{
+font-style:italic;
+}

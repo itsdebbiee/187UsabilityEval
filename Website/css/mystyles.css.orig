@@ -23,8 +23,10 @@ html, body {
 	font-weight:300;
 }
 
-<<<<<<< HEAD
-=======
+a {
+	cursor: crosshair;
+}
+
 #logo {
 	height: 125px;
 	width: 160px;
@@ -33,47 +35,33 @@ html, body {
 	padding: 5px;
 }
 
+#eval {
+	margin: 5px;
+	font-size: 15px;
+}
+
 .center {
 	text-align: center;
 }
 
-
-/*
-STICKY SIDEBAR
-============================================ */
-
-/*
-	Screen CSS
-	Copyright (c) 2013 by SPOILED MILK
-	http://www.spoiledmilk.com
-*/
-
-/* NORMALIZE ............................................ */
-* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-html, body { height: 100%; }
-html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } 
-body, div, dl, dt, dd, pre, form, fieldset, input, table, th, td, embed, object { margin: 0; padding: 0; } 
-:focus { outline: 0 } 
-:link, :visited { text-decoration: none } 
-/* clearfix */
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-.clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
+.uppercase {
+	text-transform: uppercase;
+}
 
 
->>>>>>> e65e5e4ee543519af46f2ab1dad308e298eccbbd
+
 /* HTML ELEMENTS....................................... */
 html{
-     background: url(img/background.png) no-repeat center center fixed;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
 }
 body { 
-	background: #fff; 
+<<<<<<< HEAD
+=======
+    background: url("../img/pixel_weave.png") repeat;
+    position: relative;
+    height: auto;
+    width: 100%;
+>>>>>>> 40a40a0510443a6d652bbf0cfab259371f9e5d9c
 	color: #666; 
-	font: 13px/1.4em 'Open Sans', sans-serif; 
 	text-align: left; 
 }
 
