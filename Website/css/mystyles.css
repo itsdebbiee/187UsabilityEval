@@ -22,29 +22,6 @@ html, body {
 	font-weight:300;
 }
 
-/*
-STICKY SIDEBAR
-============================================ */
-
-/*
-	Screen CSS
-	Copyright (c) 2013 by SPOILED MILK
-	http://www.spoiledmilk.com
-*/
-
-/* NORMALIZE ............................................ */
-* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-html, body { height: 100%; }
-html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } 
-body, div, dl, dt, dd, pre, form, fieldset, input, table, th, td, embed, object { margin: 0; padding: 0; } 
-:focus { outline: 0 } 
-:link, :visited { text-decoration: none } 
-/* clearfix */
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-.clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
-
-
 /* HTML ELEMENTS....................................... */
 html{
      background: url(img/background.png) no-repeat center center fixed;
@@ -73,47 +50,3 @@ color:#F5F5F5;
 p#blue {
 color:#225681;
 }
-
-/* LAYOUT ............................................. */
-
-/* Header .............. */
-header { background-color: #ccc; height: 100px; width: 100%; }
-.jumbotron1 {
-margin-bottom:30px;
-color:inherit;
-background-color:#03038f;
-padding:20px;
-}
-.jumbotron1 p {
-margin-bottom:15px;
-font-size:21px;
-font-weight:200;
-}
-.jumbotron1 .container {
-max-width:100%;
-}
-
-/* Navigation .......... */
-nav { background-color: #999; width: 100%; }
-nav ul { list-style: none; margin: 0 auto; max-width: 940px; overflow: hidden; padding: 0; }
-nav ul li { float: left; font-size: 15px; height: 40px; line-height: 40px; margin: 0; padding: 0 20px; width: auto; }
-nav ul li a:link, nav ul li a:visited { color: #fff; transition: color 0.15s linear; }
-nav ul li a:hover, nav ul li a:active { color: #000; }
-nav ul li.active a:link, nav ul li.active a:visited, nav ul li.active a:hover, nav ul li.active a:active { color: #000 !important; }
-nav ul li.right { float: right; }
-
-/* Sidebar */
-
-/* Main ................ */
-main { margin: 20px auto; max-width: 940px; }
-
-/* aside */
-aside { float: left; max-width: 220px;}
-.inside { background-color: #f4f4f4; padding: 10px; }
-#sidebar.sticky { float: none; position: fixed; top: 20px; z-index: 6; left: auto; }
-
-/* main content */
-.main_content { float: right; max-width: 700px; }
-
-/* Footer .............. */
-footer { background-color: #999; height: 300px; width: 100%; }
