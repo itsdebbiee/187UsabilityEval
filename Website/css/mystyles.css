@@ -23,6 +23,10 @@ html, body {
 	font-weight:300;
 }
 
+a {
+	cursor: crosshair;
+}
+
 #logo {
 	height: 125px;
 	width: 160px;
@@ -50,8 +54,11 @@ html, body {
 html{
 }
 body { 
+    background: url("../img/pixel_weave.png") repeat;
+    position: relative;
+    height: auto;
+    width: 100%;
 	color: #666; 
-	font: 13px/1.4em 'Open Sans', sans-serif; 
 	text-align: left; 
 }
 
