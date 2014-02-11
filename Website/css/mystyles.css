@@ -23,6 +23,10 @@ html, body {
 	font-weight:300;
 }
 
+a {
+	cursor: crosshair;
+}
+
 #logo {
 	height: 125px;
 	width: 160px;
