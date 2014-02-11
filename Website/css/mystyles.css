@@ -42,7 +42,19 @@ body, div, dl, dt, dd, pre, form, fieldset, input, table, th, td, embed, object 
 
 
 /* HTML ELEMENTS....................................... */
-body { background: #fff; color: #666; font: 13px/1.4em 'Open Sans', sans-serif; text-align: left; }
+html{
+     background: url(img/background.png) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+body { 
+	background: #fff; 
+	color: #666; 
+	font: 13px/1.4em 'Open Sans', sans-serif; 
+	text-align: left; 
+}
 
 /* heading */
 h1, h2, h3, h4, h5, h6 { line-height: 1em; margin: 1em 0; }
