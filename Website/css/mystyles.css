@@ -1,8 +1,11 @@
 /*
+Made by: Debbie Pan, Harry Bui, Michelle Wang
+COGS 187A Winter 2014
 
 TABLE OF CONTENTS
 1. General
-2. 
+2. HTML Elements
+Footer
 
 
 */
@@ -17,6 +20,7 @@ html, body {
   height: 100%;
   cursor:crosshair;
 }
+
 .screenshot{
 	margin: auto;
 	padding: 10px;
@@ -70,14 +74,20 @@ a {
 }
 
 #home-logo {
-	margin-left: 110px;
+	margin-top: 5%;
+	margin-left: 13%;
 	display: block;
 }
 
-/* HTML ELEMENTS....................................... */
-html{
+.content-center {
+	margin-left: 22%;
 }
-body { 
+
+/*
+2. HTML ELEMENTS
+============================================ */
+
+html body { 
     background: url("../img/pixel_weave.png") repeat;
     position: relative;
     height: auto;
@@ -103,3 +113,8 @@ color:#225681;
 p.italic{
 font-style:italic;
 }
+
+/*
+ FOOTER
+============================================ */
+
