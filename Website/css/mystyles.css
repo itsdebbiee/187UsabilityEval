@@ -17,11 +17,13 @@ html, body {
   height: 100%;
   cursor:crosshair;
 }
-#screenshot{
+.screenshot{
 	margin: auto;
 	padding: 10px;
 	float:left;
 }
+
+.clear { clear: both; }
 
 * {
 	font-family: Lato, sans-serif;
@@ -46,9 +48,9 @@ a {
 	display: block;
 	margin: auto;
 	padding: 5px;
-	float:left;
 }
-#description {
+p.description {
+	text-align: center;
 }
 
 #eval {
