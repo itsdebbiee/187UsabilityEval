@@ -66,7 +66,10 @@ p.description {
 	text-transform: uppercase;
 }
 
-
+#home-logo {
+	margin-left: 110px;
+	display: block;
+}
 
 /* HTML ELEMENTS....................................... */
 html{
