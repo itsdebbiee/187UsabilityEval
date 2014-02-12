@@ -117,4 +117,8 @@ font-style:italic;
 /*
  FOOTER
 ============================================ */
-
+#footer {
+	margin-top: 5%;
+	margin-left: 45%;
+	text-transform: uppercase;
+}
