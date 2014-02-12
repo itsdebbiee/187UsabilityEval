@@ -34,10 +34,6 @@ html, body {
 	font-weight:300;
 }
 
-.thumbnail:hover {
-	opacity: 0.8;
-}
-
 a {
 	cursor: crosshair;
 }
@@ -48,20 +44,6 @@ a {
 	display: block;
 	margin: auto;
 	padding: 5px;
-}
-
-.thumbnail {
-	height: 200px;
-	width: 200px;
-	display: block;
-	margin: auto;
-	padding: 5px;
-}
-.description {
-	padding-top:10px;
-	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
 }
 
 #eval {
@@ -85,10 +67,6 @@ a {
 
 .content-center {
 	margin-left: 22%;
-}
-
-.subpage-center {
-	margin-left: 19%;
 }
 
 /*
@@ -120,6 +98,35 @@ color:#225681;
 
 p.italic{
 font-style:italic;
+}
+
+/*
+SUBPAGES
+============================================ */
+.subpage-center {
+	margin-left: 19%;
+}
+
+.thumbnail {
+	height: 200px;
+	width: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius:  150px;
+	display: block;
+	margin: auto;
+	padding: 3px;
+	opacity: 1;
+}
+
+.thumbnail:hover {
+	opacity: 0.8;
+}
+
+.description {
+	padding-top:10px;
+	text-align: center;
+	display: table-cell;
 }
 
 /*
